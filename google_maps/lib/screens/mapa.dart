@@ -12,7 +12,7 @@ class MapSample extends StatefulWidget {
 class _MapSampleState extends State<MapSample> {
   late GoogleMapController mapController;
 
-  final LatLng _center = const LatLng(-5.088544046019581, -42.81123803149089);
+  final LatLng _center = const LatLng(-5.0221689,-42.8167555);
 
   Set<Marker> _marcadores = {};
   _carregarMarcadores() {
@@ -23,9 +23,9 @@ class _MapSampleState extends State<MapSample> {
       infoWindow: InfoWindow(title: 'Ifpi Central')
     );
     Marker marcadoAtacadao = const Marker(
-      markerId: MarkerId('Atacadao'),
-      position: LatLng(-5.0684959, -42.8130301),
-      infoWindow: InfoWindow(title: 'Atacadão')
+      markerId: MarkerId('ParoquiaSantaJoanaDarc'),
+      position: LatLng(-5.0273588,-42.8093207),
+      infoWindow: InfoWindow(title: 'Paróquia Santa Joana Darc')
     );
     Marker marcadoIfpiSul = const Marker(
       markerId: MarkerId('IFPISUl'),
@@ -64,7 +64,7 @@ class _MapSampleState extends State<MapSample> {
           onMapCreated: _onMapCreated,
           initialCameraPosition: CameraPosition(
             target: _center,
-            zoom: 12.0,
+            zoom: 15,
           ),
           markers: _marcadores,
         ),

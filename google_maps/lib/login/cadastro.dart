@@ -37,7 +37,7 @@ class _CadastroState extends State<Cadastro> {
                 obscureText: true,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  labelText: 'Senha',
+                  labelText: 'Localização',
                 ),
               ),
             ),
@@ -47,7 +47,7 @@ class _CadastroState extends State<Cadastro> {
                 obscureText: true,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
-                  labelText: 'Senha Novamente',
+                  labelText:'Senha',
                 ),
               ),
             ),
