@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/login/cadastro.dart';
 import 'package:google_maps/login/login.dart';
 import 'package:google_maps/screens/contatos.dart';
 import 'package:google_maps/screens/mapa.dart';
+import 'package:google_maps/screens/teste.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -101,14 +101,14 @@ class _HomeState extends State<Home> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                          builder: (context) => const Cadastro())
+                          builder: (context) => const Teste())
                         );
                       },
                       child: Container(
                         width: 140,
                         height: 140,
                         child:  const Center(
-                          child: Text('Extra')
+                          child: Text('Localização')
                           ),
                         color: Colors.green,
                       ),
