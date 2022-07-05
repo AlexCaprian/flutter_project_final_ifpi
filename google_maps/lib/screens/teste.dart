@@ -14,7 +14,7 @@ class _TesteState extends State<Teste> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Teste'),
+        title: const Text('Localização Atual'),
       ),
       body: ChangeNotifierProvider<Controller>(
         create: (context) => Controller(),

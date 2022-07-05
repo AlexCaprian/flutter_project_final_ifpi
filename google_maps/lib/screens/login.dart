@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/login/cadastro.dart';
+import 'package:google_maps/screens/cadastro.dart';
 import 'package:google_maps/screens/home.dart';
 
 class Login extends StatefulWidget {

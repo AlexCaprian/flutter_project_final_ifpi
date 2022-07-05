@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/login/login.dart';
+import 'package:google_maps/screens/login.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

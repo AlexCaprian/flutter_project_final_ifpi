@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/login/login.dart';
 import 'package:google_maps/screens/contatos.dart';
+import 'package:google_maps/screens/login.dart';
 import 'package:google_maps/screens/mapa.dart';
 import 'package:google_maps/screens/teste.dart';
 
@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(8),
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
@@ -41,16 +41,21 @@ class _HomeState extends State<Home> {
                       },
                       child: Container(
                         color: Colors.green,
-                        width: 140,
+                        width: 170,
                         height: 140,
                         child:  const Center(
-                          child: Text('Contatos')
+                          child: Text('Contatos',
+                          style: TextStyle(
+                            color:Colors.white,
+                            fontSize: 28,
                           ),
+                          ),
+                        ),
                       ),
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(8),
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
@@ -61,11 +66,16 @@ class _HomeState extends State<Home> {
                       },
                       child: Container(
                         color: Colors.green,
-                        width: 140,
+                        width: 170,
                         height: 140,
                         child:  const Center(
-                          child: Text('Mapas')
+                          child: Text('Mapas',
+                          style: TextStyle(
+                            color:Colors.white,
+                            fontSize: 28,
                           ),
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -75,7 +85,7 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(8),
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
@@ -85,17 +95,22 @@ class _HomeState extends State<Home> {
                         );
                       },
                       child: Container(
-                        width: 140,
+                        width: 170,
                         height: 140,
-                        child:  const Center(
-                          child: Text('Extra')
+                        child:   const Center(
+                          child: Text('Extra',
+                          style: TextStyle(
+                            color:Colors.white,
+                            fontSize: 28,
                           ),
+                          )
+                        ),
                         color: Colors.green,
                       ),
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(8),
                     child: GestureDetector(
                       onTap: () {
                         Navigator.push(
@@ -105,11 +120,16 @@ class _HomeState extends State<Home> {
                         );
                       },
                       child: Container(
-                        width: 140,
+                        width: 170,
                         height: 140,
                         child:  const Center(
-                          child: Text('Localização')
+                          child: Text('Localização',
+                          style: TextStyle(
+                            color:Colors.white,
+                            fontSize: 28,
                           ),
+                          ),
+                        ),
                         color: Colors.green,
                       ),
                     ),
