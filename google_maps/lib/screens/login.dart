@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/screens/cadastro.dart';
 import 'package:google_maps/screens/home.dart';
 
 class Login extends StatefulWidget {
@@ -53,14 +52,6 @@ class _LoginState extends State<Login> {
               },
               child: const Text('Entrar'),
             ),
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: ((context) => const Cadastro())));
-                },
-                child: const Text('Cadastrar')),
           ],
         ),
       ),
